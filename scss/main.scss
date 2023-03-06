@@ -1,9 +1,9 @@
-/* Normalize */
-@import "../scss/normalize/reset";
-
 /* Bootstrap */
 @import "../node_modules/bootstrap/scss/bootstrap";
 
+/* Normalize */
+@import "../scss/normalize/reset";
 
 /* Layout */
+@import "../scss/layout/nav";
 @import "../scss/layout/body";
