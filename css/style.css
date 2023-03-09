@@ -9060,3 +9060,10 @@ textarea.form-control-lg {
     text-align: center; }
   .body-container h2, .body-container .h2 {
     text-align: center; }
+
+.footer {
+  height: 30vh;
+  background: #3d8bfd; }
+  .footer i {
+    color: #cfe2ff;
+    font-size: 2em; }
