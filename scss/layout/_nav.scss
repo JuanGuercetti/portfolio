@@ -1,3 +1,10 @@
 .navbar {
 	position: relative;
+	background: $blue-600;
+
+	.bi-list {
+		font-size: 1.5em;
+		color: $blue-100;
+	}
 }
+

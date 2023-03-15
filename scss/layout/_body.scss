@@ -1,6 +1,7 @@
-.body-container {
-	height: 100vh;
+.body-container-1 {
 	margin: 0;
+	padding: 50px;
+	background: $blue-100;
 
 	h1 {
 		margin-top: 10vh;
@@ -10,4 +11,30 @@
 	h2 {
 		text-align: center;
 	}
+}
+
+.body-container-2 {
+	background: $blue-600;
+	color: $blue-100;
+	padding: 50px;
+	text-align: justify;
+}
+
+.body-container-3 {
+	background: $blue-100;
+	padding: 50px;
+	text-align: justify;
+}
+
+.body-container-4 {
+	background: $blue-600;
+	color: $blue-100;
+	padding: 50px;
+	text-align: justify;
+}
+
+.body-container-5 {
+	background: $blue-100;
+	padding: 50px;
+	text-align: justify;
 }
