@@ -3,7 +3,7 @@
 
 	.introduction {
 		margin: 0;
-		padding: 50px;
+		padding: 50px 50px 150px 50px;
 
 		h1 {
 			margin-top: 10vh;
@@ -27,12 +27,20 @@
 		padding: 50px;
 		text-align: center;
 
+		h2 {
+			margin: 100px 0 60px 0;
+		}
+
 		.card-group {
 
 			.card {
 				background: $blue-600;
 				color: $blue-100;
 				margin: 20px;
+
+				&:hover {
+					box-shadow: 0 0 16px $blue-600;
+				}
 
 				img {
 					padding: 5px;
@@ -41,12 +49,13 @@
 				.btn {
 					background: $blue-400;
 					color: $blue-100;
-				}
-				.btn:hover {
-					box-shadow: 0 0 8px $blue-100;
-				}
-				.btn:active {
-					opacity: .8;
+
+					&:hover {
+						box-shadow: 0 0 8px $blue-100;
+					}
+					&:active {
+						opacity: .8;
+					}
 				}
 			}
 		}
@@ -59,7 +68,19 @@
 		text-align: right;
 		margin-right: 0;
 
-		.accordion-flush {
+		h2 {
+			margin: 30px 30px 60px 30px;
+		}
+
+		.accordion {
+			
+			.accordion-item {
+				background: $blue-100;
+
+				.accordion-button {
+					background: $blue-100;
+				}
+			}
 		}
 	}
 

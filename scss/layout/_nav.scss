@@ -1,10 +1,28 @@
 .navbar {
-	position: relative;
+	position: sticky;
 	background: $blue-600;
+	border-bottom: 1px solid $blue-100;
 
-	.bi-list {
+	.bi-house {
 		font-size: 1.5em;
 		color: $blue-100;
+		margin-left: 10px;
+
+		&:hover {
+			text-shadow: 0 0 3px $blue-100;
+		}
+	}
+
+	.navbar-toggler {
+
+		&:hover {
+			box-shadow: 0 0 3px $blue-100;
+		}
+
+		.bi-list {
+			font-size: 1.5em;
+			color: $blue-100;	
+		}
 	}
 }
 

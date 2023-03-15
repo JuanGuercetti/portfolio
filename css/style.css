@@ -9048,11 +9048,26 @@ textarea.form-control-lg {
   margin: 0;
   padding: 0; }
 
+h1, .h1 {
+  font-size: 3em; }
+
+h2, .h2 {
+  font-size: 2.5em; }
+
 /* Layout */
 .navbar {
-  position: relative;
-  background: #0a58ca; }
-  .navbar .bi-list {
+  position: sticky;
+  background: #0a58ca;
+  border-bottom: 1px solid #cfe2ff; }
+  .navbar .bi-house {
+    font-size: 1.5em;
+    color: #cfe2ff;
+    margin-left: 10px; }
+    .navbar .bi-house:hover {
+      text-shadow: 0 0 3px #cfe2ff; }
+  .navbar .navbar-toggler:hover {
+    box-shadow: 0 0 3px #cfe2ff; }
+  .navbar .navbar-toggler .bi-list {
     font-size: 1.5em;
     color: #cfe2ff; }
 
@@ -9060,7 +9075,7 @@ textarea.form-control-lg {
   background: #cfe2ff; }
   .main-container .introduction {
     margin: 0;
-    padding: 50px; }
+    padding: 50px 50px 150px 50px; }
     .main-container .introduction h1, .main-container .introduction .h1 {
       margin-top: 10vh;
       text-align: center; }
@@ -9075,32 +9090,46 @@ textarea.form-control-lg {
   .main-container .proyectos {
     padding: 50px;
     text-align: center; }
+    .main-container .proyectos h2, .main-container .proyectos .h2 {
+      margin: 100px 0 60px 0; }
     .main-container .proyectos .card-group .card {
       background: #0a58ca;
       color: #cfe2ff;
       margin: 20px; }
+      .main-container .proyectos .card-group .card:hover {
+        box-shadow: 0 0 16px #0a58ca; }
       .main-container .proyectos .card-group .card img {
         padding: 5px; }
       .main-container .proyectos .card-group .card .btn {
         background: #3d8bfd;
         color: #cfe2ff; }
-      .main-container .proyectos .card-group .card .btn:hover {
-        box-shadow: 0 0 8px #cfe2ff; }
-      .main-container .proyectos .card-group .card .btn:active {
-        opacity: .8; }
+        .main-container .proyectos .card-group .card .btn:hover {
+          box-shadow: 0 0 8px #cfe2ff; }
+        .main-container .proyectos .card-group .card .btn:active {
+          opacity: .8; }
   .main-container .experience {
     background: #0a58ca;
     color: #cfe2ff;
     padding: 50px;
     text-align: right;
     margin-right: 0; }
+    .main-container .experience h2, .main-container .experience .h2 {
+      margin: 30px 30px 60px 30px; }
+    .main-container .experience .accordion .accordion-item {
+      background: #cfe2ff; }
+      .main-container .experience .accordion .accordion-item .accordion-button {
+        background: #cfe2ff; }
   .main-container .education {
     padding: 50px;
     text-align: justify; }
 
 .footer {
-  height: 30vh;
-  background: #0a58ca; }
+  padding: 50px 0 50px 0;
+  background: #0a58ca;
+  display: flex;
+  justify-content: space-evenly; }
   .footer i {
     color: #cfe2ff;
-    font-size: 2em; }
+    font-size: 3em; }
+    .footer i:hover {
+      text-shadow: 0 0 3px #cfe2ff; }
