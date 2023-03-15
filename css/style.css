@@ -9056,37 +9056,47 @@ textarea.form-control-lg {
     font-size: 1.5em;
     color: #cfe2ff; }
 
-.body-container-1 {
-  margin: 0;
-  padding: 50px;
+.main-container {
   background: #cfe2ff; }
-  .body-container-1 h1, .body-container-1 .h1 {
-    margin-top: 10vh;
+  .main-container .introduction {
+    margin: 0;
+    padding: 50px; }
+    .main-container .introduction h1, .main-container .introduction .h1 {
+      margin-top: 10vh;
+      text-align: center; }
+    .main-container .introduction h2, .main-container .introduction .h2 {
+      text-align: center; }
+  .main-container .aboutMe {
+    background: #0a58ca;
+    color: #cfe2ff;
+    padding: 50px;
+    text-align: justify;
+    margin-left: 0; }
+  .main-container .proyectos {
+    padding: 50px;
     text-align: center; }
-  .body-container-1 h2, .body-container-1 .h2 {
-    text-align: center; }
-
-.body-container-2 {
-  background: #0a58ca;
-  color: #cfe2ff;
-  padding: 50px;
-  text-align: justify; }
-
-.body-container-3 {
-  background: #cfe2ff;
-  padding: 50px;
-  text-align: justify; }
-
-.body-container-4 {
-  background: #0a58ca;
-  color: #cfe2ff;
-  padding: 50px;
-  text-align: justify; }
-
-.body-container-5 {
-  background: #cfe2ff;
-  padding: 50px;
-  text-align: justify; }
+    .main-container .proyectos .card-group .card {
+      background: #0a58ca;
+      color: #cfe2ff;
+      margin: 20px; }
+      .main-container .proyectos .card-group .card img {
+        padding: 5px; }
+      .main-container .proyectos .card-group .card .btn {
+        background: #3d8bfd;
+        color: #cfe2ff; }
+      .main-container .proyectos .card-group .card .btn:hover {
+        box-shadow: 0 0 8px #cfe2ff; }
+      .main-container .proyectos .card-group .card .btn:active {
+        opacity: .8; }
+  .main-container .experience {
+    background: #0a58ca;
+    color: #cfe2ff;
+    padding: 50px;
+    text-align: right;
+    margin-right: 0; }
+  .main-container .education {
+    padding: 50px;
+    text-align: justify; }
 
 .footer {
   height: 30vh;
