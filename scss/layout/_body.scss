@@ -23,12 +23,34 @@
 		margin-left: 0;
 	}
 
-	.proyectos {
+	.skills {
+		margin: 150px 0;
+		background: $blue-600;
+		color: $blue-100;
+		padding: 50px;
+
+		.card-group {
+
+			.card {
+				background: $blue-600;
+				color: $blue-100;
+				margin: 20px;
+				border-radius: 30px;
+
+				img {
+					border-radius: 30px;
+				}
+			}
+		}
+	}
+
+	.projects {
 		padding: 50px;
 		text-align: center;
 
 		h2 {
 			margin: 100px 0 60px 0;
+			font-size: 3em;
 		}
 
 		.card-group {
@@ -37,6 +59,7 @@
 				background: $blue-600;
 				color: $blue-100;
 				margin: 20px;
+				max-width: 500px;
 
 				&:hover {
 					box-shadow: 0 0 16px $blue-600;

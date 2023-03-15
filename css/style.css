@@ -9087,25 +9087,39 @@ h2, .h2 {
     padding: 50px;
     text-align: justify;
     margin-left: 0; }
-  .main-container .proyectos {
-    padding: 50px;
-    text-align: center; }
-    .main-container .proyectos h2, .main-container .proyectos .h2 {
-      margin: 100px 0 60px 0; }
-    .main-container .proyectos .card-group .card {
+  .main-container .skills {
+    margin: 150px 0;
+    background: #0a58ca;
+    color: #cfe2ff;
+    padding: 50px; }
+    .main-container .skills .card-group .card {
       background: #0a58ca;
       color: #cfe2ff;
-      margin: 20px; }
-      .main-container .proyectos .card-group .card:hover {
+      margin: 20px;
+      border-radius: 30px; }
+      .main-container .skills .card-group .card img {
+        border-radius: 30px; }
+  .main-container .projects {
+    padding: 50px;
+    text-align: center; }
+    .main-container .projects h2, .main-container .projects .h2 {
+      margin: 100px 0 60px 0;
+      font-size: 3em; }
+    .main-container .projects .card-group .card {
+      background: #0a58ca;
+      color: #cfe2ff;
+      margin: 20px;
+      max-width: 500px; }
+      .main-container .projects .card-group .card:hover {
         box-shadow: 0 0 16px #0a58ca; }
-      .main-container .proyectos .card-group .card img {
+      .main-container .projects .card-group .card img {
         padding: 5px; }
-      .main-container .proyectos .card-group .card .btn {
+      .main-container .projects .card-group .card .btn {
         background: #3d8bfd;
         color: #cfe2ff; }
-        .main-container .proyectos .card-group .card .btn:hover {
+        .main-container .projects .card-group .card .btn:hover {
           box-shadow: 0 0 8px #cfe2ff; }
-        .main-container .proyectos .card-group .card .btn:active {
+        .main-container .projects .card-group .card .btn:active {
           opacity: .8; }
   .main-container .experience {
     background: #0a58ca;
