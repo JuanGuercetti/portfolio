@@ -9070,6 +9070,16 @@ h2, .h2 {
   .navbar .navbar-toggler .bi-list {
     font-size: 1.5em;
     color: #cfe2ff; }
+  .navbar .offcanvas-header {
+    flex-direction: row-reverse; }
+  .navbar .offcanvas-body .nav-link {
+    font-size: 1.3em;
+    margin: 5px 0; }
+    .navbar .offcanvas-body .nav-link:hover {
+      text-shadow: 0 0 2px #9ec5fe; }
+  .navbar .offcanvas-body .bi {
+    margin: 0 12px 0 0;
+    font-size: 1em; }
 
 .footer {
   padding: 50px 0 50px 0;
@@ -9115,13 +9125,14 @@ h2, .h2 {
         text-align: center;
         border: none;
         font-size: .8em; }
-        .main-container .skills .card-group .card .card-body {
-          padding: 0; }
         .main-container .skills .card-group .card img {
           margin: auto;
-          border-radius: 30px;
+          border-radius: 10px;
           background: #cfe2ff;
           width: 100px; }
+        .main-container .skills .card-group .card .card-body {
+          padding: 0;
+          margin-top: 15px; }
   .main-container .projects {
     padding: 50px;
     text-align: center; }
@@ -9159,3 +9170,28 @@ h2, .h2 {
   .main-container .education {
     padding: 50px;
     text-align: justify; }
+  .main-container .language {
+    background: #0a58ca;
+    color: #cfe2ff;
+    padding: 50px;
+    text-align: justify;
+    margin: 0 0 100px 0; }
+    .main-container .language .card-group {
+      display: flex;
+      flex-wrap: wrap; }
+      .main-container .language .card-group .card {
+        background: #0a58ca;
+        color: #cfe2ff;
+        margin: 20px;
+        border-radius: 30px;
+        text-align: center;
+        border: none;
+        font-size: .8em; }
+        .main-container .language .card-group .card img {
+          margin: auto;
+          border-radius: 10px;
+          background: #cfe2ff;
+          width: 100px; }
+        .main-container .language .card-group .card .card-body {
+          padding: 0;
+          margin-top: 15px; }

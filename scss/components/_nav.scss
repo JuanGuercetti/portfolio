@@ -24,5 +24,26 @@
 			color: $blue-100;	
 		}
 	}
+
+	.offcanvas-header {
+		flex-direction: row-reverse;
+	}
+
+	.offcanvas-body {
+
+		.nav-link {
+			font-size: 1.3em;
+			margin: 5px 0;
+
+			&:hover {
+				text-shadow: 0 0 2px $blue-200;
+			}
+		}
+
+		.bi {
+			margin: 0 12px 0 0;
+			font-size: 1em;
+		}
+	}
 }
 
