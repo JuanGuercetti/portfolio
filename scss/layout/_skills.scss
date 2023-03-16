@@ -1,0 +1,32 @@
+.skills {
+	margin: 150px 0 100px 0;
+	background: $blue-600;
+	color: $blue-100;
+	padding: 50px;
+
+	.card-group {
+		display: flex;
+		flex-wrap: wrap;
+
+		.card {
+			background: $blue-600;
+			color: $blue-100;
+			margin: 20px;
+			border-radius: 30px;
+			text-align: center;
+			border: none;
+			font-size: .8em;
+
+			.card-body {
+				padding: 0;
+			}
+
+			img {
+				margin: auto;
+				border-radius: 30px;
+				background: $blue-100;
+				width: 100px;
+			}
+		}
+	}
+}

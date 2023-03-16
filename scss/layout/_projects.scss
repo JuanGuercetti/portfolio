@@ -1,0 +1,39 @@
+.projects {
+	padding: 50px;
+	text-align: center;
+
+	h2 {
+		margin: 0 0 60px 0;
+		font-size: 3em;
+	}
+
+	.card-group {
+
+		.card {
+			background: $blue-600;
+			color: $blue-100;
+			margin: 20px;
+			max-width: 500px;
+
+			&:hover {
+				box-shadow: 0 0 16px $blue-600;
+			}
+
+			img {
+				padding: 5px;
+			}
+
+			.btn {
+				background: $blue-400;
+				color: $blue-100;
+
+				&:hover {
+					box-shadow: 0 0 8px $blue-100;
+				}
+				&:active {
+					opacity: .8;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,22 @@
+.experience {
+	background: $blue-600;
+	color: $blue-100;
+	padding: 50px;
+	text-align: right;
+	margin-right: 0;
+
+	h2 {
+		margin: 30px 30px 60px 30px;
+	}
+
+	.accordion {
+			
+		.accordion-item {
+			background: $blue-100;
+
+			.accordion-button {
+				background: $blue-100;
+			}
+		}
+	}
+}

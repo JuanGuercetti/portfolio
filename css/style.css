@@ -9054,7 +9054,7 @@ h1, .h1 {
 h2, .h2 {
   font-size: 2.5em; }
 
-/* Layout */
+/* Components */
 .navbar {
   position: sticky;
   background: #0a58ca;
@@ -9071,6 +9071,18 @@ h2, .h2 {
     font-size: 1.5em;
     color: #cfe2ff; }
 
+.footer {
+  padding: 50px 0 50px 0;
+  background: #0a58ca;
+  display: flex;
+  justify-content: space-evenly; }
+  .footer i {
+    color: #cfe2ff;
+    font-size: 3em; }
+    .footer i:hover {
+      text-shadow: 0 0 3px #cfe2ff; }
+
+/* Layout */
 .main-container {
   background: #cfe2ff; }
   .main-container .introduction {
@@ -9088,22 +9100,33 @@ h2, .h2 {
     text-align: justify;
     margin-left: 0; }
   .main-container .skills {
-    margin: 150px 0;
+    margin: 150px 0 100px 0;
     background: #0a58ca;
     color: #cfe2ff;
     padding: 50px; }
-    .main-container .skills .card-group .card {
-      background: #0a58ca;
-      color: #cfe2ff;
-      margin: 20px;
-      border-radius: 30px; }
-      .main-container .skills .card-group .card img {
-        border-radius: 30px; }
+    .main-container .skills .card-group {
+      display: flex;
+      flex-wrap: wrap; }
+      .main-container .skills .card-group .card {
+        background: #0a58ca;
+        color: #cfe2ff;
+        margin: 20px;
+        border-radius: 30px;
+        text-align: center;
+        border: none;
+        font-size: .8em; }
+        .main-container .skills .card-group .card .card-body {
+          padding: 0; }
+        .main-container .skills .card-group .card img {
+          margin: auto;
+          border-radius: 30px;
+          background: #cfe2ff;
+          width: 100px; }
   .main-container .projects {
     padding: 50px;
     text-align: center; }
     .main-container .projects h2, .main-container .projects .h2 {
-      margin: 100px 0 60px 0;
+      margin: 0 0 60px 0;
       font-size: 3em; }
     .main-container .projects .card-group .card {
       background: #0a58ca;
@@ -9136,14 +9159,3 @@ h2, .h2 {
   .main-container .education {
     padding: 50px;
     text-align: justify; }
-
-.footer {
-  padding: 50px 0 50px 0;
-  background: #0a58ca;
-  display: flex;
-  justify-content: space-evenly; }
-  .footer i {
-    color: #cfe2ff;
-    font-size: 3em; }
-    .footer i:hover {
-      text-shadow: 0 0 3px #cfe2ff; }
