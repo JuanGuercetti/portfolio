@@ -9176,11 +9176,13 @@ h2, .h2 {
     padding: 50px;
     text-align: justify;
     margin: 0 0 100px 0; }
+    .main-container .language h2, .main-container .language .h2 {
+      margin-bottom: 50px; }
     .main-container .language .card-group {
       display: flex;
       flex-wrap: wrap; }
       .main-container .language .card-group .card {
-        background: #0a58ca;
+        background: #052c65;
         color: #cfe2ff;
         margin: 20px;
         border-radius: 30px;
@@ -9188,10 +9190,9 @@ h2, .h2 {
         border: none;
         font-size: .8em; }
         .main-container .language .card-group .card img {
-          margin: auto;
+          margin: 20px auto;
           border-radius: 10px;
-          background: #cfe2ff;
-          width: 100px; }
+          background: none;
+          width: 150px; }
         .main-container .language .card-group .card .card-body {
-          padding: 0;
-          margin-top: 15px; }
+          margin-bottom: 20px; }
